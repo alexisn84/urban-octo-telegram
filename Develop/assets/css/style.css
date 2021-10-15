@@ -1,13 +1,14 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: #d9dcd6;
 }
 
+/*apply styles to header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,6 +17,7 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 
 .header nav {
@@ -51,6 +53,7 @@ body {
     padding: 10px 15px;
     font-size: 1.55vw;
 }
+/*End Header Styles*/
 
 a {
     color: #ffffff;
@@ -142,14 +145,14 @@ p {
 }
 
 .benefits h3 {
-    margin-top: 20px;
+    margin-top: 11px;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefits img {
     display: block;
-    margin: 10px auto;
+    margin: 10px auto 3px auto;
     max-width: 150px;
 }
 
