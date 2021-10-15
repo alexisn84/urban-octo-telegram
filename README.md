@@ -1,9 +1,10 @@
 # Code Refactor Starter Code
 
 ## Purpose
-To replace outdated code, condense repeated code and make it more accessible to users.
+Main purpose is to ensure coding is updated for accessibilty for users and optimized for search engines.
+Small clean-up work in order to condense repeated code and ensure code is labeled to help find sections quickly.
 
-##Built with 
+## Built with 
 *HTML
 *CSS
 
